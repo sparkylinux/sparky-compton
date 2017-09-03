@@ -1,0 +1,19 @@
+# Arquivo de localização para Portugues do Brasil para o Sparky Compton.
+# Copyright 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/26
+# Traduzido por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 20/01/2016
+# Sob a Licença GNU GPL v2
+# Última atualização 28/01/2016
+
+LOCAL1="Nome"
+LOCAL2="Descrição"
+LOCAL3="Sair"
+LOCAL4="Gerenciador do Compton"
+LOCAL5="Gerenciador das Configurações de Composite Compton. \n\Pare se qualquer outro gerenciador de composite diferente estiver em execução, antes de voce inicializar o Compton. \n\nPor gentileza selecione uma opção:"
+LOCAL6="Inicialize o Compton"
+LOCAL7="Pare o Compton"
+LOCAL8="Carregue o arquivo de configuração exemplo do Compton"
+LOCAL9="Edite o arquivo de configuração do Compton"
+
+### .desktop file to be translated too
+# Name[pt_BR]=Gerenciador do Compton
+# Comment[pt_BR]=Inicialize, pare ou edite o gerenciador de Composite Compton

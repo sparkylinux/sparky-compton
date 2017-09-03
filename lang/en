@@ -1,0 +1,18 @@
+# English localization file for Sparky Compton.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/26
+# Under the GNU GPL v2
+# Last update 2016/01/10
+
+LOCAL1="Name"
+LOCAL2="Description"
+LOCAL3="Exit"
+LOCAL4="Compton Manager"
+LOCAL5="Compton Composite Menager's settings. \n\Stop any different composite manager if is running, befor you start Compton. \n\nPlease select an option"
+LOCAL6="Start Compton"
+LOCAL7="Stop Compton"
+LOCAL8="Load sample configuration file"
+LOCAL9="Edit Compton configuration file"
+
+### .desktop file to be translated too
+# Name[en_US]=Compton Manager
+# Comment[en_US]=Launch, stop or edit Compton Composite Manager

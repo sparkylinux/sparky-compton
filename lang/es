@@ -1,0 +1,18 @@
+# Archivo de localización en español para Sparky Compton.
+# Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/23
+# Bajo la licencia GNU GPL v2
+# Ultima actualización 2015/12/23
+
+LOCAL1="Nombre"
+LOCAL2="Descripción"
+LOCAL3="Salir"
+LOCAL4="Administrador de Compton"
+LOCAL5="Configuración del administrador de Compton Composite. \n\Detener cualquier otro administrador de composición que esté ejecutándose, antes que inicie Compton. \n\nPor favor, elija una opción:"
+LOCAL6="Iniciar Compton"
+LOCAL7="Detener Compton"
+LOCAL8="Cargar el archivo de configuración de ejemplo"
+LOCAL9="Editar el archivo de configuración de Compton"
+
+### .desktop file to be translated too
+# Name[es_AR]=Administrador de Compton
+# Comment[es_AR]=Lanza, detiene o edita el administrador de Compton Composite

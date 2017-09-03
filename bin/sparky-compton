@@ -1,0 +1,83 @@
+#!/bin/bash
+#
+#  Created by Paweł "pavroo" Pijanowski 2013/10/12
+#  Copyright 2013, 2014, 2015, 2016 under the GNU GPL2 License
+#  Last update 2016/05/22
+#
+#  This script requires yad to run
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-compton"
+if [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+elif [ "`cat /etc/default/locale | grep ru_RU`" != "" ]; then
+. $DEFLOCDIR/ru
+elif [ "`cat /etc/default/locale | grep sv_SE`" != "" ]; then
+. $DEFLOCDIR/se
+else
+. $DEFLOCDIR/en
+fi
+
+DIALOG="yad --window-icon=preferences-desktop-theme --width=500 --height=320 --center"
+TITLE="--always-print-result --dialog-sep --image=preferences-desktop-theme --title="
+TEXT="--text="
+MENU="--list --column=$LOCAL1 --column=$LOCAL2"
+OKEXIT="--button=Ok:0 --button=$LOCAL3:1"
+TITLETEXT="$LOCAL4"
+if [ -f /opt/sparky/sparky-editor ]; then
+. /opt/sparky/sparky-editor
+else
+	SPARKYEDITOR="gnome-text-editor"
+fi
+
+mainmenu () {
+
+CHOICES=`$DIALOG $TITLE"$TITLETEXT" $MENU $OKEXIT $TEXT"$LOCAL5:" \
+Start "$LOCAL6" \
+Stop "$LOCAL7" \
+Load "$LOCAL8" \
+Edit "$LOCAL9"`
+
+if [ "$?" = "0" ]; then
+	CHOICE=`echo $CHOICES | cut -d "|" -f 1`
+else
+	exit 0
+fi
+
+if [ "$CHOICE" = "Start" ]; then
+	compton &
+	mainmenu
+elif [ "$CHOICE" = "Stop" ]; then
+	killall -9 compton &
+	mainmenu
+elif [ "$CHOICE" = "Load" ]; then
+	loadmenu
+elif [ "$CHOICE" = "Edit" ]; then
+	$SPARKYEDITOR $HOME/.compton.conf
+	mainmenu
+else
+	exit 0
+fi
+}
+
+loadmenu () {
+if [ -f $HOME/.compton.conf* ]; then
+	rm -f $HOME/.compton.conf
+fi
+
+cp -f /opt/sparky/compton.conf $HOME/.compton.conf
+mainmenu
+}
+mainmenu

@@ -1,0 +1,18 @@
+# File di localizzazione italiano per for Sparky Compton.
+# Copyright 2015 Carlo, "malato" Troiani <abbassolafrangetta@gmail.com> 26/10/2015
+# Rilasciato sotto licenza GNU GPL v2
+# Ultimo aggiornamento 26/10/2015
+
+LOCAL1="Nome"
+LOCAL2="Descrizione"
+LOCAL3="Esci"
+LOCAL4="Compton Manager"
+LOCAL5="Impostazioni per Compton Composite Menager. \n\Se stai usando un qualsiasi altro Composite Manager, chiudilo prima di iniziare Compton. \n\nPrego effettua una scelta"
+LOCAL6="Inizia Compton"
+LOCAL7="Ferma Compton"
+LOCAL8="Carica il file di configurazione campione"
+LOCAL9="Modifica il file di configurazione di Compton"
+
+### .desktop file to be translated too
+# Name[it_IT]=Compton Manager
+# Comment[it_IT]=Lancia, ferma o modifica Compton Composite Manager

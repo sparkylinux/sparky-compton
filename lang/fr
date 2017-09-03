@@ -1,0 +1,18 @@
+﻿# Fichier de localisation française de Sparky Compton.
+# Copyright 2016 hiver <hiver@club-internet.fr> 2016/05/12
+# Sous licence GNU GPL v2
+# Dernière mise à jour 2016/06/05
+
+LOCAL1="Nom"
+LOCAL2="Description"
+LOCAL3="Quitter"
+LOCAL4="Gestionnaire de Compton"
+LOCAL5="Configuration du gestionnaire de Compton Composite . \n\n Arrêtez tout autre gestionnaire de composition en fonctionnement avant de démarrer Compton. \n\nChoissisez une option s'il vous plaît:"
+LOCAL6="Démarrer Compton"
+LOCAL7="Arrêter Compton"
+LOCAL8="Charger un fichier exemple de configuration"
+LOCAL9="Éditer le fichier de configuration de Compton"
+
+### .desktop file to be translated too
+# Name[en_US]=Gestionnaire Compton
+# Comment[en_US]=Lance, arrête ou édite le gestionnaire Compton Composite

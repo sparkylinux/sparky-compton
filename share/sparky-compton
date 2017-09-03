@@ -1,0 +1,1 @@
+?package(sparky-compton):needs="X11" section="Applications/Utility"        title="Compton Manager" command="/usr/bin/sparky-compton" icon="preferences-desktop-theme"
