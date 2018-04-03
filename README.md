@@ -1,7 +1,7 @@
 Compton Manager
 This tool lets you launch or stop Compton Composite Manager and edit its configuration file.
 
-Copyright (C) 2013-2017 Paweł Pijanowski and others, see copyright file.
+Copyright (C) 2013-2018 Paweł Pijanowski and others, see copyright file.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@ Dependencies:
 -------------
 compton
 grep
-sparky-editor
+sparky-editor (>= 0.1.11)
 yad
 
 Install:
