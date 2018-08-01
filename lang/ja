@@ -1,9 +1,8 @@
 # Japanese localization file for Sparky Compton.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/26
 # Under the GNU GPL v2
-# Last update 2017/01/06
+# Last update 2018/08/01 by pavroo
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
-
 LOCAL1="名前"
 LOCAL2="説明"
 LOCAL3="終了"
@@ -13,7 +12,6 @@ LOCAL6="Compton の開始"
 LOCAL7="Compton の停止"
 LOCAL8="サンプル設定ファイルの読み込み"
 LOCAL9="Compton 設定ファイルの編集"
-
 ### .desktop file to be translated too
 # Name[ja_JP]=Compton マネージャー
 # Comment[ja_JP]=Compton コンポジットマネージャーの起動・停止・編集

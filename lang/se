@@ -1,8 +1,7 @@
 # Svensk språkfil för Sparky Compton.
 # Copyright 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com> 2015-11-14
 # Under GNU GPL v2
-# Senast uppdaterad 2015-11-14
-
+# Last update 2018/08/01 by pavroo
 LOCAL1="Namn"
 LOCAL2="Beskrivning"
 LOCAL3="Avsluta"
@@ -12,7 +11,6 @@ LOCAL6="Starta Compton"
 LOCAL7="Stoppa Compton"
 LOCAL8="Ladda exempelkonfigurationsfil"
 LOCAL9="Redigera konfigurationsfil för Compton"
-
 ### .desktop file to be translated too
 # Name[sv_SE]=Compton-hanteraren
 # Comment[sv_SE]=Starta, stoppa eller redigera Compton Komposithanterare
