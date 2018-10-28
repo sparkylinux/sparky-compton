@@ -1,7 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do Sparky Compton.
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Saturday 30 January 23:01:00 WET 2016
 # Sob a Licença GNU GPL v2
-# Last update 2018/08/01 by pavroo
+# Last update 2018/10/28 by pavroo
 LOCAL1="Nome"
 LOCAL2="Descrição"
 LOCAL3="Sair"
@@ -11,6 +11,7 @@ LOCAL6="Iniciar Compton"
 LOCAL7="Parar Compton"
 LOCAL8="Carregar o Ficheiro exemplo da configuração"
 LOCAL9="Editar Ficheiro de configuração do Compton"
+LOCAL10="Configuração do Compton"
 ### Arquivo a ser traduzido também .desktop
 # Name[pt_PT]=Gestor do Compton
 # Comment[pt_PT]=Iniciar, parar ou editar Gestor de Composísão Compton

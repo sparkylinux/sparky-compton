@@ -1,7 +1,7 @@
 # Polish localization file for Sparky Compton.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/26
 # Under the GNU GPL v2
-# Last update 2018/08/01 by pavroo
+# Last update 2018/10/28 by pavroo
 # Translated to Polish by pavroo
 LOCAL1="Nazwa"
 LOCAL2="Opis"
@@ -12,6 +12,7 @@ LOCAL6="Włącz Compton"
 LOCAL7="Zatrzymaj Compton"
 LOCAL8="Załaduj plik przykładowej konfiguracji"
 LOCAL9="Edytuj plik konfiguracyjny Compton"
+LOCAL10="Konfiguracja Compton"
 ### .desktop file, również do przetłumaczenia
 # Name[pl_PL]=Compton Menadżer
 # Comment[pl_PL]=Uruchom, zatrzymaj lub edytuj zarządcę kompozycji Compton

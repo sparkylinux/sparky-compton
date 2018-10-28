@@ -1,8 +1,8 @@
 # Indonesian localization file for Sparky Compton.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/26
 # Under the GNU GPL v2
-# Last update 2018/08/01 by pavroo
 # Translated to Indonesian by les kompie
+# Last update 2018/10/28 by pavroo
 LOCAL1="Nama"
 LOCAL2="Deskripsi"
 LOCAL3="Keluar"
@@ -12,6 +12,7 @@ LOCAL6="Mulai Compton"
 LOCAL7="Hentikan Compton"
 LOCAL8="Muat file konfigurasi sampel"
 LOCAL9="Edit file konfigurasi Compton"
+LOCAL10="Konfigurasi Compton"
 ### .desktop file to be translated too
 # Name[id_ID]=Manajer Compton
 # Comment[id_ID]=Luncurkan, hentikan atau edit Composite Manager Compton

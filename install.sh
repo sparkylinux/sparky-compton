@@ -20,6 +20,7 @@ if [ "$1" = "uninstall" ]; then
 	rm -f /usr/share/applications/sparky-compton.desktop
 	rm -f /usr/share/menu/sparky-compton
 	rm -rf /usr/share/sparky/sparky-compton
+	rm -f /opt/sparky/compton.conf
 else
 	cp bin/* /usr/bin/
 	if [ ! -d /usr/lib/sparkycenter/look ]; then
@@ -32,4 +33,8 @@ else
 		mkdir -p /usr/share/sparky/sparky-compton
 	fi
 	cp lang/* /usr/share/sparky/sparky-compton/
+	if [ ! -d /opt/sparky ]; then
+		mkdir -p /opt/sparky
+	fi
+	cp opt/* /opt/sparky/ 
 fi

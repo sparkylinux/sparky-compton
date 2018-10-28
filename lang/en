@@ -1,7 +1,7 @@
 # English localization file for Sparky Compton.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/26
 # Under the GNU GPL v2
-# Last update 2018/08/01 by pavroo
+# Last update 2018/10/28 by pavroo
 LOCAL1="Name"
 LOCAL2="Description"
 LOCAL3="Exit"
@@ -11,6 +11,7 @@ LOCAL6="Start Compton"
 LOCAL7="Stop Compton"
 LOCAL8="Load sample configuration file"
 LOCAL9="Edit Compton configuration file"
+LOCAL10="Compton Configuration"
 ### .desktop file to be translated too
 # Name[en_US]=Compton Manager
 # Comment[en_US]=Launch, stop or edit Compton Composite Manager

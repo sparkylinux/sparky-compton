@@ -3,7 +3,7 @@
 # Created by Paweł "pavroo" Pijanowski 2013/10/12
 # Copyright 2013-2018 under the GNU GPL2 License
 # This script requires yad to run
-# Last update 2018/08/01 by pavroo
+# Last update 2018/10/28 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-compton"
@@ -48,7 +48,8 @@ CHOICES=`$DIALOG $TITLE"$TITLETEXT" $MENU $OKEXIT $TEXT"$LOCAL5:" \
 Start "$LOCAL6" \
 Stop "$LOCAL7" \
 Load "$LOCAL8" \
-Edit "$LOCAL9"`
+Edit "$LOCAL9" \
+GUIconf "$LOCAL10"`
 
 if [ "$?" = "0" ]; then
 	CHOICE=`echo $CHOICES | cut -d "|" -f 1`
@@ -63,22 +64,29 @@ elif [ "$CHOICE" = "Stop" ]; then
 	killall -9 compton &
 	mainmenu
 elif [ "$CHOICE" = "Load" ]; then
-	loadmenu
+	if [ -f $HOME/.compton.conf ]; then
+		mv $HOME/.compton.conf $HOME/.config/compton.conf
+	fi
+
+	if [ -f $HOME/.config/compton.conf ]; then
+		cp $HOME/.config/compton.conf $HOME/.config/compton-backup-$(date +"%m_%d_%Y").conf
+		rm -f $HOME/.config/compton.conf
+	fi
+
+	cp -f /opt/sparky/compton.conf $HOME/.config/compton.conf
+	mainmenu
 elif [ "$CHOICE" = "Edit" ]; then
-	$SPARKYEDITOR $HOME/.compton.conf
+	if [ -f $HOME/.compton.conf ]; then
+		mv $HOME/.compton.conf $HOME/.config/compton.conf
+	fi
+	$SPARKYEDITOR $HOME/.config/compton.conf
+	mainmenu
+elif [ "$CHOICE" = "GUIconf" ]; then
+	compton-conf
 	mainmenu
 else
 	exit 0
 fi
-}
-
-loadmenu () {
-if [ -f $HOME/.compton.conf* ]; then
-	rm -f $HOME/.compton.conf
-fi
-
-cp -f /opt/sparky/compton.conf $HOME/.compton.conf
-mainmenu
 }
 
 mainmenu
