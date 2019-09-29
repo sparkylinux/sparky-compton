@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Created by Paweł "pavroo" Pijanowski 2013/10/12
-# Copyright 2013-2018 under the GNU GPL2 License
+# Copyright 2013-2019 under the GNU GPL2 License
 # This script requires yad to run
-# Last update 2018/10/28 by pavroo
+# Last update 2019/09/29 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-compton"
@@ -11,6 +11,8 @@ if [ "`cat /etc/default/locale | grep es`" != "" ]; then
 . $DEFLOCDIR/es
 elif [ "`cat /etc/default/locale | grep fr`" != "" ]; then
 . $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep hu`" != "" ]; then
+. $DEFLOCDIR/hu
 elif [ "`cat /etc/default/locale | grep id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
 elif [ "`cat /etc/default/locale | grep it`" != "" ]; then

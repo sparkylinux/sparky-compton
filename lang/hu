@@ -1,0 +1,17 @@
+# Hungarian localization file for Sparky Compton. (Translated by Nemomen)
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/26
+# Under the GNU GPL v2
+# Last update 2018/10/28 by pavroo
+LOCAL1="Név"
+LOCAL2="Leírás"
+LOCAL3="Kilépés"
+LOCAL4="Compton Manager"
+LOCAL5="Compton Composite Manager beállításai. \n\Állítson le más kompozit kezelőt, amennyiben futna, mielőtt elindítja a Comptont. \n\nKérjük, válasszon opciót!"
+LOCAL6="Indítsa a Comptont!"
+LOCAL7="Állítsa le a Comptont!"
+LOCAL8="Töltsön be minta konfigurációs fájlt!"
+LOCAL9="Szerkessze a Compton konfigurációs fájlt!"
+LOCAL10="Compton Konfiguráció"
+### .desktop file to be translated too
+# Name[en_US]=Compton Manager
+# Comment[en_US]=Launch, stop or edit Compton Composite Manager
