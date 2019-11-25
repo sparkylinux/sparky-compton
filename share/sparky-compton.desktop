@@ -2,6 +2,7 @@
 Version=1.0
 Encoding=UTF-8
 Name=Compton Manager
+Name[el]=Διαχειριστής Compton
 Name[es]=Administrador de Compton
 Name[fr]=Gestionnaire Compton
 Name[id]=Manajer Compton
@@ -13,6 +14,7 @@ Name[ru]=Менеджер Compton
 Name[sv]=Compton-hanteraren
 GenericName=Compton Manager
 Comment=Launch, stop or edit Compton Composite Manager
+Comment[el]=Εκκίνηση, τερματισμός και επεξεργασία του Σύνθετου Διαχειριστή Compton
 Comment[es]=Lanza, detiene o edita el administrador de Compton Composite
 Comment[fr]=Lance, arrête ou édite le gestionnaire Compton Composite
 Comment[id]=Luncurkan, hentikan atau edit Composite Manager Compton

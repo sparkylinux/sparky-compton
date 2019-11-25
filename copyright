@@ -2,7 +2,11 @@ Upstream Author(s):
     Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 
 Files: * 
-    Copyright Paweł "pavroo" Pijanowski 2013-2018
+    Copyright Paweł "pavroo" Pijanowski 2013-2019
+    License: GPL-2
+
+File: el
+    Copyright (C) 2019 jidan
     License: GPL-2
 
 File: es

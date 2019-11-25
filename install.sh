@@ -26,7 +26,7 @@ else
 	if [ ! -d /usr/lib/sparkycenter/look ]; then
 		mkdir -p /usr/lib/sparkycenter/look
 	fi
-	cp lib/* /usr/lib/sparkycenter/look/
+	cp share/sparky-compton.desktop /usr/lib/sparkycenter/look/
 	cp share/sparky-compton.desktop /usr/share/applications/
 	cp share/sparky-compton /usr/share/menu/
 	if [ ! -d /usr/share/sparky/sparky-compton ]; then

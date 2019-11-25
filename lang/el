@@ -1,0 +1,17 @@
+# Greek localization file for Sparky Compton.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/26
+# Under the GNU GPL v2
+# Last update 2019/11/06 by jidan
+LOCAL1="Όνομα"
+LOCAL2="Περιγραφή"
+LOCAL3="Έξοδος"
+LOCAL4="Διαχειριστής Compton"
+LOCAL5="Ρυθμίσεις του Σύνθετου Διαχειριστή Compton. \n\Τερματίστε οποιονδήποτε άλλον σύνθετο διαχειριστή εφόσον εκτελείται, πριν εκκινήσετε το Compton. \n\nΔιαλέξτε μια επιλογή"
+LOCAL6="Εκκίνηση του Compton"
+LOCAL7="Τερματισμός του Compton"
+LOCAL8="Προβολή παραδείγματος αρχείου ρυθμίσεων του Compton"
+LOCAL9="Επεξεργασία αρχείου ρυθμίσεων του Compton"
+LOCAL10="Ρυθμίσεις του Compton"
+### .desktop file to be translated too
+# Name[el_GR]=Διαχειριστής Compton
+# Comment[el_GR]=Εκκίνηση, τερματισμός και επεξεργασία του Σύνθετου Διαχειριστή Compton
