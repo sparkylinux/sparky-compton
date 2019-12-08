@@ -1,0 +1,18 @@
+# German localization file for Sparky Compton.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/26
+# Under the GNU GPL v2
+# Last update 2018/10/28 by pavroo
+# draft translate -michael<thenumbersguy@o2online.de>2019/12
+LOCAL1="Name"
+LOCAL2="Beschreibung"
+LOCAL3="Beenden"
+LOCAL4="Compton Manager"
+LOCAL5="Compton Composite Manager - Einstellungen. \n\Falls ein anderer Composite Manager läuft, muss er vor dem Start von Compton beendet werden. \n\nBitte eine Option auswählen."
+LOCAL6="Compton starten"
+LOCAL7="Compton stoppen"
+LOCAL8="Konfigurationsdatei laden"
+LOCAL9="Compton-Konfigurationsdatei bearbeiten"
+LOCAL10="Compton-Konfiguration"
+### .desktop file to be translated too
+# Name[de_DE]=Compton Manager
+# Comment[de_DE]=Compton Composite Manager starten, beenden oder editieren
