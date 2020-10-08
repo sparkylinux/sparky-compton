@@ -1,37 +1,37 @@
 #!/bin/bash
 
 # Created by Paweł "pavroo" Pijanowski 2013/10/12
-# Copyright 2013-2019 under the GNU GPL2 License
+# Copyright 2013-2020 under the GNU GPL2 License
 # This script requires yad to run
-# Last update 2019/12/08 by pavroo
+# Last update 2020/10/08 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-compton"
-if [ "`cat /etc/default/locale | grep de`" != "" ]; then
+if [ "`cat /etc/default/locale | grep LANG= | grep de`" != "" ]; then
 . $DEFLOCDIR/de
-elif [ "`cat /etc/default/locale | grep el`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep el`" != "" ]; then
 . $DEFLOCDIR/el
-elif [ "`cat /etc/default/locale | grep es`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep es`" != "" ]; then
 . $DEFLOCDIR/es
-elif [ "`cat /etc/default/locale | grep fr`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep fr`" != "" ]; then
 . $DEFLOCDIR/fr
-elif [ "`cat /etc/default/locale | grep hu`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep hu`" != "" ]; then
 . $DEFLOCDIR/hu
-elif [ "`cat /etc/default/locale | grep id_ID`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
-elif [ "`cat /etc/default/locale | grep it`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep it`" != "" ]; then
 . $DEFLOCDIR/it
-elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep ja_JP`" != "" ]; then
 . $DEFLOCDIR/ja
-elif [ "`cat /etc/default/locale | grep pl`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep pl`" != "" ]; then
 . $DEFLOCDIR/pl
-elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep pt_BR`" != "" ]; then
 . $DEFLOCDIR/pt_BR
-elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep pt_PT`" != "" ]; then
 . $DEFLOCDIR/pt_PT
-elif [ "`cat /etc/default/locale | grep ru`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep ru`" != "" ]; then
 . $DEFLOCDIR/ru
-elif [ "`cat /etc/default/locale | grep sv_SE`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep sv_SE`" != "" ]; then
 . $DEFLOCDIR/se
 else
 . $DEFLOCDIR/en
